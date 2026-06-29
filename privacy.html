@@ -7,7 +7,7 @@
 <style>
   :root{
     --ink:#1a2230; --muted:#5a6678; --line:#e2e6ec; --bg:#ffffff;
-    --accent:#2b4a7a; --soft:#f6f8fb; --flag:#8a5a00; --flagbg:#fff8ec;
+    --accent:#2b4a7a; --soft:#f6f8fb;
   }
   *{box-sizing:border-box}
   body{margin:0; background:var(--bg); color:var(--ink);
@@ -26,10 +26,6 @@
      color:var(--accent); margin:36px 0 10px}
   p{margin:0 0 15px} ul{margin:0 0 15px; padding-left:22px} li{margin-bottom:6px}
   a{color:var(--accent)}
-  .draftbar{background:var(--flagbg); border:1px solid #f0dcae; color:var(--flag);
-    border-radius:10px; padding:16px 20px; margin:24px 0; font-size:15px}
-  .flag{background:var(--flagbg); border-left:3px solid #d9a93a; padding:2px 6px;
-    color:var(--flag); font-weight:600; font-size:13px; border-radius:3px}
   footer{border-top:1px solid var(--line); margin-top:44px; padding:28px 0 56px;
     color:var(--muted); font-size:14px}
   footer a{color:var(--muted)}
@@ -40,7 +36,7 @@
 <header>
   <div class="wrap">
     <div class="brand">SPARC<span>-</span>XP</div>
-    <div class="org">Perlis Lab · Massachusetts General Hospital</div>
+    <div class="org">Massachusetts General Hospital</div>
   </div>
 </header>
 <main>
@@ -48,20 +44,13 @@
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: [DATE]</p>
 
-    <div class="draftbar">
-      <strong>DRAFT — for IRB / RISO / compliance review before publishing.</strong>
-      Remove this banner and resolve all highlighted items before this page goes
-      live. This policy concerns research data collected from children and must be
-      reviewed by the MGB IRB and Research Information Security office.
-    </div>
-
     <h2>Who we are</h2>
-    <p>SPARC-XP is an IRB-approved research study conducted by the Perlis Lab at
-      Massachusetts General Hospital (Mass General Brigham), in collaboration with
-      Vanderbilt University Medical Center, and funded by the National Institutes
-      of Health. This application is used only by authorized study staff to collect
-      research data from enrolled, consented participants. It is not a consumer
-      product and is not publicly available.</p>
+    <p>SPARC-XP is an IRB-approved research study (Protocol #2025P001508) at
+      Massachusetts General Hospital, in collaboration with Vanderbilt University
+      Medical Center, and funded by the National Institutes of Health
+      (1UF1MH141632-01). This application is used only by authorized study staff to
+      collect research data from enrolled, consented participants. It is not a
+      consumer product and is not publicly available.</p>
 
     <h2>What data this application accesses</h2>
     <p>With participant consent, the application uses the Google Health API to
@@ -96,18 +85,12 @@
       team for the research described here.</p>
     <p>Deidentified study data may be shared with study collaborators under approved
       data-use agreements, and certain deidentified phenotypic study data is
-      deposited with the NIH NIMH Data Archive (NDA) as required by funding.
-      <span class="flag">CONFIRM</span> Per the approved protocol, wearable activity
-      data is stored in REDCap and is not part of the NDA deposit; confirm this
-      wording with compliance.</p>
+      deposited with the NIH NIMH Data Archive (NDA) as required by funding.</p>
 
     <h2>Data retention and deletion</h2>
     <p>The study-managed accounts used to collect this data are deleted by study
       staff after the data-collection period ends and study programmers have
-      finished extracting the data.
-      <span class="flag">CONFIRM</span> the scope of what account deletion removes
-      (the account and its associated wearable data) with the Google Health API
-      provider, so this statement is precise.</p>
+      finished extracting the data.</p>
 
     <h2>Limited Use</h2>
     <p>This application's use of information received from Google APIs adheres to the
@@ -119,21 +102,17 @@
     <h2>Human access to data</h2>
     <p>Authorized study staff access the deidentified wearable data as a necessary
       part of conducting the research the participant consented to, consistent with
-      the study's IRB-approved protocol.
-      <span class="flag">CONFIRM</span> this framing with the Google Health API
-      provider, as the Limited Use human-access provisions are written primarily for
-      consumer applications.</p>
+      the study's IRB-approved protocol.</p>
 
     <h2>Your choices</h2>
     <p>Participation in the wearable-device component is voluntary, as described in
       the study consent form. Participants may withdraw from the study and may
-      contact the study team to withdraw their data at any time, per the study
-      protocol.</p>
+      contact the study team to withdraw their data at any time.</p>
 
     <h2>Contact</h2>
-    <p>Perlis Lab, Massachusetts General Hospital<br>
-      Principal Investigator: Roy H. Perlis, MD<br>
-      Study contact: [add study email]<br>
+    <p>Massachusetts General Hospital<br>
+      Principal Investigator: Andrea G. Edlow, MD, MSc<br>
+      Study contact: mghcqh@mgh.harvard.edu<br>
       Mass General Brigham IRB: 857-282-1900</p>
   </div>
 </main>
